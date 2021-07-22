@@ -18,6 +18,8 @@ All notable changes to LoyJoy will be documented in this file.
   - Lets your user search through your whole bot. On success the chat jumps into the experience found.
 - New widget: `Search` 🔎
   - Lets your user search a query and suggest experiences to jump into.
+- External Link module
+  - Links can now be embedded for the following providers: codepen, mixcloud, soundcloud, spotify, vimeo, youtube
 
 
 ### release-2021-06-30
