@@ -10,6 +10,7 @@ All notable changes to LoyJoy will be documented in this file.
 - 📈 Analytics
   - New detailed view: Allows viewing of events per process module
   - New session concept: Chat opens & interactions inside 30 minutes
+  - Allow for bot-wide analytics
 
 ## release-2021-07-26
 
