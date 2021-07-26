@@ -23,7 +23,7 @@ All notable changes to LoyJoy will be documented in this file.
 - WebService & WebComponent params can now hold expressions
 - WebComponents can now write variables
 - Markdown
-  - Any word can now be written in *bold* or in _italics_. For bold surround the word with an asterix (*) and for italics with an underscore (_)
+  - Any word can now be written in *bold* or in _italics_. For bold surround the word with asterisks (*) and for italics with underscores (_)
 
 ### release-2021-06-30
 
