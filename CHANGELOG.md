@@ -22,7 +22,7 @@ All notable changes to LoyJoy will be documented in this file.
   - Links can now be embedded for the following providers: *codepen, mixcloud, soundcloud, spotify, vimeo, youtube*
 - WebService & WebComponent params can now hold expressions
 - WebComponents can now write variables
-- Any word can now be written in *bold* or in _italics_. For bold surround the word with an asterix (*) and for bold with an underscore (_)
+- Any word can now be written in *bold* or in _italics_. For bold surround the word with an asterix (*) and for italics with an underscore (_)
 
 ### release-2021-06-30
 
