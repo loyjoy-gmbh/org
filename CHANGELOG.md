@@ -7,6 +7,14 @@ All notable changes to LoyJoy will be documented in this file.
 
 ### Added
 
+- 📈 Analytics
+  - New detailed view: Allows viewing of events per process module
+  - New session concept: Chat opens & interactions inside 30 minutes
+
+## release-2021-07-26
+
+### Added
+
 - Palette
   - Grouping of subprocesses, groups are ordered by priority
   - Filtering subprocesses by name, group, tags
@@ -24,8 +32,13 @@ All notable changes to LoyJoy will be documented in this file.
 - WebComponents can now write variables
 - Markdown
   - Any word can now be written in *bold* or in _italics_. For bold surround the word with asterisks (*) and for italics with underscores (_)
+- Make date texts deletable
 
-### release-2021-06-30
+### Fixed
+- Block autocompletion for credentials in backend
+- Add suggested image sizes for image uploads
+
+## release-2021-06-30
 
 ### Added
 
