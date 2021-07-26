@@ -20,7 +20,7 @@ All notable changes to LoyJoy will be documented in this file.
   - Grouping of subprocesses, groups are ordered by priority
   - Filtering subprocesses by name, group, tags
   - Fullscreen palette shows subprocess messages
-- You can now add a custom animation when jumping into different experiences. ✨✨ The chat history is cleared thereafter.
+- You can now add an animation when jumping into different experiences. ✨✨ 
 - Added global search in manager 🔎
   - Search for any text and go to the exact location with ease.
 - New process module: `Search` 🔎
