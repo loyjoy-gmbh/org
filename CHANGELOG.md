@@ -1,7 +1,7 @@
 
 # Change Log
 
-All notable changes to LoyJoy will be documented in this file.
+All notable updates and changes to the LoyJoy Cloud are documented here.
 
 ## Unreleased
 
@@ -16,43 +16,44 @@ All notable changes to LoyJoy will be documented in this file.
 
 ### Added
 
-- Palette
-  - Grouping of subprocesses, groups are ordered by priority
-  - Filtering subprocesses by name, group, tags
-  - Fullscreen palette shows subprocess messages
-- You can now add an animation when jumping into different experiences. ✨✨ 
-- Added global search in manager 🔎
-  - Search for any text and go to the exact location with ease.
-- New process module: `Search` 🔎
-  - Lets your user search through your whole bot. On success the chat jumps into the experience found.
-- New widget: `Search` 🔎
-  - Lets your user search a query and suggest experiences to jump into.
-- External Link module
-  - Links can now be embedded for the following providers: *codepen, mixcloud, soundcloud, spotify, vimeo, youtube*
-- WebService & WebComponent params can now hold expressions
-- WebComponents can now write variables
-- Markdown
+- Process Editor View features new Process Module Palette
+  - Grouping of process modules, groups are ordered by priority
+  - Filter and Search process modules by name, group name, tags
+  - Switch to fullscreen view of palette to show process module preview
+- Updated process module `Decision Jumop` and `Automatic Jump`
+  - You can now optionally open a new chat view when jumping to another experience, the view transitions smoothly
+- Find any text instantly: New global search in manager 🔎
+  - Search for any text and go to the exact location with ease
+- New process module `Search` 🔎
+  - Lets your customers search through your whole bot. On success, the chat jumps into the experience found.
+- New Home View Widget `Search` 🔎
+  - Let your customers enter a search query and suggest experiences to jump into
+- Updated process module `External Link`
+  - Links can now be embedded in the ChatUI for the following content providers: *codepen, mixcloud, soundcloud, spotify, vimeo, youtube*
+- Added Markdown to the ChatUI
   - Any word can now be written in *bold* or in _italics_. For bold surround the word with asterisks (*) and for italics with underscores (_)
-- Make date texts deletable
+- Process modules `WebService` and `WebComponent` params can now hold expressions
+- `WebComponents` can now write variables
+- Make date-specific texts deletable
 
 ### Fixed
-- Block autocompletion for credentials in backend
+- Blocking of autocomplete for credentials in manager
 - Add suggested image sizes for image uploads
 
 ## release-2021-06-30
 
 ### Added
 
-- Widgets in Home are now hidden if they do not contain content
-- New process module: Salesforce Interaction Studio
+- Widgets in Home View are now hidden if they do not contain content
+- New process module `Salesforce Interaction Studio`
 - Web components are now available inside the chatflow
-- Web components can now be used in footer
+- Web components can now be used in footer of ChatUI
 - Web components can now be parameterized
-- Notifications in the home view notifications widget are now stacked if more than one
+- Notifications in the Home View notifications widget are now stacked if more than one
 - Live chat messages are now stored either in database or in-memory. In-memory is for financial institution tenants such as banks, database for other tenants.
 
 ### Fixes
-- Fixed a bug that caused web components to be included only once
+- Fixed a bug that caused Web components to be included only once
 
 
 ### release-2021-06-16
