@@ -20,7 +20,8 @@ All notable changes to LoyJoy will be documented in this file.
   - Lets your user search a query and suggest experiences to jump into.
 - External Link module
   - Links can now be embedded for the following providers: *codepen, mixcloud, soundcloud, spotify, vimeo, youtube*
-
+- WebService & WebComponent params can now hold expressions
+- WebComponents can now write variables
 
 ### release-2021-06-30
 
