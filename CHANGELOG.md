@@ -30,8 +30,6 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - Let your customers enter a search query and suggest experiences to jump into
 - Updated process module `External Link`
   - Links can now be embedded in the ChatUI for the following content providers: *codepen, kickstarter, mixcloud, nytimes, pinterest, soundcloud, spotify, ted, vimeo, youtube*
-- Added Markdown to the ChatUI
-  - Any word can now be written in *bold* or in _italics_. For bold surround the word with asterisks (*) and for italics with underscores (_)
 - Process modules `WebService` and `WebComponent` params can now hold expressions
 - `WebComponents` can now write variables
 - Make date-specific texts deletable
