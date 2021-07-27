@@ -20,7 +20,7 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - Grouping of process modules, groups are ordered by priority
   - Filter and Search process modules by name, group name, tags
   - Switch to fullscreen view of palette to show process module preview
-- Updated process module `Decision Jumop` and `Automatic Jump`
+- Updated process module `Decision Jump` and `Automatic Jump`
   - You can now optionally open a new chat view when jumping to another experience, the view transitions smoothly
 - Find any text instantly: New global search in manager 🔎
   - Search for any text and go to the exact location with ease
