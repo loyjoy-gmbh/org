@@ -12,7 +12,7 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - New session concept: Chat opens & interactions inside 30 minutes
   - New, bot-wide analytics
 
-## release-2021-07-26
+## release-2021-07-27
 
 ### Added
 
