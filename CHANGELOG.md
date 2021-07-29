@@ -16,27 +16,30 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 
 ### Added
 
-- Process Editor View features new Process Module Palette
-  - Grouping of process modules, groups are ordered by priority
-  - Filter and Search process modules by name, group name, tags
-  - Switch to fullscreen view of palette to show process module preview
-- Updated process module `Decision Jump` and `Automatic Jump`
-  - You can now optionally open a new chat view when jumping to another experience, the view transitions smoothly
+- Process Editor View features a new process module palette
+  - Process modules are categorized by topic such as `loyalty` or `integration`. The categories are ordered by priority, starting with the most basic process modules.
+  - Process modules can be filtered and searched by name, group name, tags.
+  - The palette can be switchted to fullscreen view to show process module previews.
+- Updated jump logic in process modules such as `Decision Jump` and `Automatic Jump` as well as intents.
+  - You can now optionally open a new chat view when jumping to another experience. This enables to visually jump between experiences with a smooth transition.
 - Find any text instantly: New global search in manager 🔎
-  - Search for any text and go to the exact location with ease
+  - Search for any text in any experience and go to the exact location with ease.
 - New process module `Search` 🔎
   - Lets your customers search through your whole bot. On success, the chat jumps into the experience found.
 - New Home View Widget `Search` 🔎
-  - Let your customers enter a search query and suggest experiences to jump into
+  - Let your customers enter a search query and suggest experiences to jump into.
 - Updated process module `External Link`
   - Links can now be embedded in the ChatUI for the following content providers: *codepen, kickstarter, mixcloud, nytimes, pinterest, soundcloud, spotify, ted, vimeo, youtube*
-- Process modules `WebService` and `WebComponent` params can now hold expressions
-- `WebComponents` can now write variables
-- Make date-specific texts deletable
+- Several process modules do not require a sign-in before: `Firstname`, `Lastname`, `Gender`, `Birthdate`, `Phone`, `Postal Address`, `Tags`, `Personal Data Intro`. Instead they simply create customer variables such as `customer_firstname`, which additionally automatically is written to the Vault, as soon as the customer is signed in. Thus, using the Vault is now optional.
+- Several process modules do not trigger a sign-in before: `Mail to Customer`, `InChat Push`, `Rewards`, `Scondoo`, `Yotpo`. Instead these simply require an `auth_email` variable to operate, which is set by other process modules such as `Sign-In`, `ReachFive` or `ProCampaign`.
+- Process module `WebService` and `WebComponent` params can now hold expressions.
+- `WebComponents` can now write variables.
+- Date-specific texts have now a deletion option in LoyJoy manager
 
 ### Fixed
 - Blocking of autocomplete for credentials in manager
 - Add suggested image sizes for image uploads
+
 
 ## release-2021-06-30
 
@@ -50,7 +53,7 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 - Notifications in the Home View notifications widget are now stacked if more than one
 - Live chat messages are now stored either in database or in-memory. In-memory is for financial institution tenants such as banks, database for other tenants.
 
-### Fixes
+### Fixed
 - Fixed a bug that caused Web components to be included only once
 
 
@@ -83,7 +86,7 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - jump forwards and backwards in current playtime (`firefox`(all files), `chrome, edge-chromium, ie11`(for files approx. smaller than 3 MB), not supported in `safari`
   
 
-### Fixes
+### Fixed
 - Questionnaire:
   - Placeholder for numerical inputs is now editable
 - Image Gallery:
