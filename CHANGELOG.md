@@ -39,6 +39,7 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 ### Fixed
 - Blocking of autocomplete for credentials in manager
 - Add suggested image sizes for image uploads
+- Data collection question types `Categorical Slider` and `Rating` are now more robust, especially on rendering the chat history after page reload.
 
 
 ## release-2021-06-30
