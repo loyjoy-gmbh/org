@@ -12,6 +12,18 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - New session concept: Chat opens & interactions inside 30 minutes
   - New, bot-wide analytics
 
+
+## release-2021-08-02
+
+### Changed
+
+- Process module `ReachFive` now implements authentication server-side instead of client-side.
+
+### Fixed
+
+- Fixed potentially negative width of elements in data collection question type `Rating`.
+
+
 ## release-2021-07-27
 
 ### Added
@@ -33,10 +45,11 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 - Several process modules do not require a sign-in before: `Firstname`, `Lastname`, `Gender`, `Birthdate`, `Phone`, `Postal Address`, `Tags`, `Personal Data Intro`. Instead they simply create customer variables such as `customer_firstname`, which additionally automatically is written to the Vault, as soon as the customer is signed in. Thus, using the Vault is now optional.
 - Several process modules do not trigger a sign-in before: `Mail to Customer`, `InChat Push`, `Rewards`, `Scondoo`, `Yotpo`. Instead these simply require an `auth_email` variable to operate, which is set by other process modules such as `Sign-In`, `ReachFive` or `ProCampaign`.
 - Process module `WebService` and `WebComponent` params can now hold expressions.
-- `WebComponents` can now write variables.
+- Process module `WebComponents` can now write variables.
 - Date-specific texts have now a deletion option in LoyJoy manager
 
 ### Fixed
+
 - Blocking of autocomplete for credentials in manager
 - Add suggested image sizes for image uploads
 - Data collection question types `Categorical Slider` and `Rating` are now more robust, especially on rendering the chat history after page reload.
@@ -55,6 +68,7 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 - Live chat messages are now stored either in database or in-memory. In-memory is for financial institution tenants such as banks, database for other tenants.
 
 ### Fixed
+
 - Fixed a bug that caused Web components to be included only once
 
 
@@ -85,7 +99,6 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 - Audio player: depending on the browser the following functionality is available
   - display of audio duration and progressbar (not supoprted in `safari`)
   - jump forwards and backwards in current playtime (`firefox`(all files), `chrome, edge-chromium, ie11`(for files approx. smaller than 3 MB), not supported in `safari`
-  
 
 ### Fixed
 - Questionnaire:
@@ -122,7 +135,6 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 - Text inside draggable components is now selectable
 - All CSV exports are provided as encrypted ZIP files
 
-
 ### Fixed
 
 - `List` process module
@@ -156,9 +168,11 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - Underlying dialog no longer closes on any click
   - Resize to fit to screen
 
+
 ## release-2021-04-13
 
 ### Added
+
 - `Mail` process module can now send attachments
 - Added `Clipboard` process module
   - Show a text that your customers can copy
