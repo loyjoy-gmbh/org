@@ -72,7 +72,7 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 - Fixed a bug that caused Web components to be included only once
 
 
-### release-2021-06-16
+## release-2021-06-16
 
 ### Added
 
