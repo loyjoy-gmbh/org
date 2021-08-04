@@ -138,6 +138,9 @@ Use this for any data exchange with Salesforce Service Cloud.
 ## Scondoo cashback
 Add a cash back feature with our partner Scondoo.
 
+## Search 
+Customers can search through LoyJoy experiences and jump right into them. 
+
 ## Share image
 Let your customers share an image from the chat to their friends. This displays a share button that invokes the native sharing mechanism of the device. This works on mobile devices, for desktop devices there is a fallback option.
 
