@@ -12,6 +12,10 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - New session concept: Chat opens & interactions inside 30 minutes
   - New, bot-wide analytics
 
+### Fixed
+
+- Prevent customers from entering only spaces in forms such as first name, phone, and questionnaire forms.
+
 
 ## release-2021-08-02
 
