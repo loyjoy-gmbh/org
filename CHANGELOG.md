@@ -11,6 +11,17 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - New detailed view: Allows viewing of events per process module
   - New session concept: Chat opens & interactions inside 30 minutes
   - New, bot-wide analytics
+- Questionnaire
+  - Questionnaire result email is going to be removed soon. Until then, it will inform about the planned removal.
+  - Added nps_range as a question-type
+- Subprocess copy
+  - Functionality to specify the position at which a copied Subprocess should be pasted.
+- Image recommendation
+  - Recommendations were added to every image upload
+  - Asks if you are sure when uploading a image/gif (differentiates) which exceeds the recommended size.
+  - Gives the user a warning at the image if the currently uploaded image/gif (differentiates) exceeds the recommended size.
+  - Display size of imageuploads were adjusted to better match the recommended ratio of height and width.
+
 
 ### Fixed
 
