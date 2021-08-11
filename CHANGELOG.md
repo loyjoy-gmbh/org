@@ -20,7 +20,11 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - Recommendations were added to every image upload
   - Asks if you are sure when uploading a image/gif (differentiates) which exceeds the recommended size.
   - Gives the user a warning at the image if the currently uploaded image/gif (differentiates) exceeds the recommended size.
-  - Display size of image uploads were adjusted to better match the recommended ratio of height and width.
+  - Display size of image uploads were adjusted to better match the recommended ratio of height and width. This only works for Images with ratio 1.9:1. 
+- Postal address
+  - The subprocess also asks for a country which you can select from predefined options. This feature has to be activated and countrys have to be added.
+- Use NLU messages from chat for training
+  - Messages from the chat can now be assigned to intents to gather more training data.
 
 
 ### Fixed
