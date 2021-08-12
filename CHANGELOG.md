@@ -25,6 +25,8 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - The subprocess also asks for a country which you can select from predefined options. This feature has to be activated and countrys have to be added.
 - Use NLU messages from chat for training
   - Messages from the chat can now be assigned to intents to gather more training data.
+- Search:
+  - search queries can now be entered in a bubble in the chat
 
 
 ### Fixed
