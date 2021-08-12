@@ -30,6 +30,7 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 ### Fixed
 
 - Prevent customers from entering only spaces in forms such as first name, phone, and questionnaire forms.
+- List jumps now work correctly if previously jumped from another process
 
 
 ## release-2021-08-02
