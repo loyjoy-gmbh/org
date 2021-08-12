@@ -3,19 +3,11 @@
 
 All notable updates and changes to the LoyJoy Cloud are documented here.
 
+
 ## Unreleased
 
-### Added
-
-- 📈 Analytics
-  - New detailed view: Allows viewing of events per process module
-  - New session concept: Chat opens & interactions inside 30 minutes
-  - New, bot-wide analytics
 - Questionnaire
-  - Questionnaire result email is going to be removed soon. Until then, it will inform about the planned removal.
   - Added nps_range as a question-type
-- Subprocess copy
-  - Functionality to specify the position at which a copied Subprocess should be pasted.
 - Image recommendation
   - Recommendations were added to every image upload
   - Asks if you are sure when uploading a image/gif (differentiates) which exceeds the recommended size.
@@ -25,8 +17,24 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - The subprocess also asks for a country which you can select from predefined options. This feature has to be activated and countrys have to be added.
 - Use NLU messages from chat for training
   - Messages from the chat can now be assigned to intents to gather more training data.
-- Search:
-  - search queries can now be entered in a bubble in the chat
+
+
+## release-2021-08-12
+
+### Added
+
+- 📈 Analytics
+  - New detailed view: Allows viewing of events per process module
+  - New session concept: Chat opens & interactions inside 30 minutes
+  - New, bot-wide analytics
+- Updated process module `Questionnaire`
+  - Questionnaire result email is going to be removed soon. Until then, it will inform about the planned removal
+- Updated process module `Search`
+  - Search queries can now be entered in a form in the chat
+- Copy function for process modules
+  - Functionality to specify the position at which a copied process module should be pasted
+- Several process modules do not trigger a sign-in before: `Newsletter opt-in`, `Profiling opt-in`, `Reminder opt-in`, `Web push opt-in`, `SMS opt-in`. Instead these simply require an `auth_email` variable to operate, which is set by other process modules such as `Sign-In`, `ReachFive` or `ProCampaign`.
+
 
 
 ### Fixed
