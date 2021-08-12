@@ -4,43 +4,43 @@
 All notable updates and changes to the LoyJoy Cloud are documented here.
 
 
-## Unreleased
+## Unreleased (coming soon)
 
-- Questionnaire
-  - Added nps_range as a question-type
-- Image recommendation
-  - Recommendations were added to every image upload
-  - Asks if you are sure when uploading a image/gif (differentiates) which exceeds the recommended size.
-  - Gives the user a warning at the image if the currently uploaded image/gif (differentiates) exceeds the recommended size.
-  - Display size of image uploads were adjusted to better match the recommended ratio of height and width. This only works for Images with ratio 1.9:1. 
-- Postal address
-  - The subprocess also asks for a country which you can select from predefined options. This feature has to be activated and countrys have to be added.
-- Use NLU messages from chat for training
-  - Messages from the chat can now be assigned to intents to gather more training data.
+- `Questionnaire` module
+  - Added the emoji slider from `NPS` module as a new question type.
+- Image size recommendations
+  - Recommendations for the best image size were added to every image upload.
+  - Warning when uploading an image and animated GIF which exceeds the recommended file size.
+  - Displays warning when the currently uploaded image or animated GIF exceeds the recommended file size.
+- `Postal address`module
+  - The module optionally  asks for a country which you can select from predefined options. This feature has to be activated and countrys have to be added.
+- Add training data for NLU from customer messages
+  - Messages from chats can now be assigned to intent training data to extend the training data.
 
 
 ## release-2021-08-12
 
 ### Added
 
-- 📈 Analytics
-  - New detailed view: Allows viewing of events per process module
-  - New session concept: Chat opens & interactions inside 30 minutes
-  - New, bot-wide analytics
-- Updated process module `Questionnaire`
-  - Questionnaire result email is going to be removed soon. Until then, it will inform about the planned removal
-- Updated process module `Search`
-  - Search queries can now be entered in a form in the chat
+- 📈 New Analytics
+  - New detail view with heat map: Allows to display the performance per process module.
+  - New session concept: Chat opens & interactions within 30 minutes are measured.
+  - New, bot-wide analytics with aggregated performance measurement.
 - Copy function for process modules
-  - Functionality to specify the position at which a copied process module should be pasted
-- All opt-ins such as newsletter opt-ins now primarily are stored as customer variables. As such they can be read and written with their variable name such as `customer_newsletter_single_opt_in`. When writing a variable such as `customer_newsletter_single_opt_in = true` in a process, automatically in the background the corresponding row in the `opt-ins` table is written for later CSV export of opt-ins.
-- Several process modules do not trigger a sign-in before: `Newsletter opt-in`, `Profiling opt-in`, `Reminder opt-in`, `Web push opt-in`, `SMS opt-in`. Instead these simply require an `auth_email` variable to operate, which is set by other process modules such as `Sign-In`, `ReachFive` or `ProCampaign`.
+  - Functionality to specify the position at which a copied process module should be pasted.
+- Updated process module `Questionnaire`
+  - Questionnaire result email is obsolete and going to be removed soon. Until then, it will inform about the planned removal.
+- Updated process module `Search`
+  - Search queries can now be entered in a form in the chat instead in the text .
+
+- All opt-ins such as newsletter opt-ins are now stored primarily as customer variables. As such they can be read and written with their variable name such as `customer_newsletter_single_opt_in`. When writing a variable such as `customer_newsletter_single_opt_in = true` in a process, in the background the corresponding row in the `opt-ins` table is automatically written for later CSV export of opt-ins.
+- Several process modules no longer require a previous sign-in: `Newsletter opt-in`, `Profiling opt-in`, `Reminder opt-in`, `Web push opt-in`, `Text message opt-in`. Instead these simply require an `auth_email` variable to operate, which is set by other process modules such as `Sign-In`, `ReachFive` or `ProCampaign`.
 
 
 ### Fixed
 
-- Prevent customers from entering only spaces in forms such as first name, phone, and questionnaire forms.
-- List jumps now work correctly if previously jumped from another process
+- Prevent customers from entering only spaces in forms such as first name, phone number, and questionnaire forms.
+- List jumps now work correctly if previously jumped to from another process.
 
 
 ## release-2021-08-02
