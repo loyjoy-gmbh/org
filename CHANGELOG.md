@@ -33,8 +33,8 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - Search queries can now be entered in a form in the chat
 - Copy function for process modules
   - Functionality to specify the position at which a copied process module should be pasted
+- All opt-ins such as newsletter opt-ins now primarily are stored as customer variables. As such they can be read and written with their variable name such as `customer_newsletter_single_opt_in`. When writing a variable such as `customer_newsletter_single_opt_in = true` in a process, automatically in the background the corresponding row in the `opt-ins` table is written for later CSV export of opt-ins.
 - Several process modules do not trigger a sign-in before: `Newsletter opt-in`, `Profiling opt-in`, `Reminder opt-in`, `Web push opt-in`, `SMS opt-in`. Instead these simply require an `auth_email` variable to operate, which is set by other process modules such as `Sign-In`, `ReachFive` or `ProCampaign`.
-
 
 
 ### Fixed
