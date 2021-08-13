@@ -36,6 +36,7 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 - Several process modules no longer require a previous sign-in: `Newsletter opt-in`, `Profiling opt-in`, `Reminder opt-in`, `Web push opt-in`, `Text message opt-in`. Instead these simply require an `auth_email` variable to operate, which is set by other process modules such as `Sign-In`, `ReachFive` or `ProCampaign`.
 - Live
   - As a live agent you are now able to create message templates for the live chat. With one click you can send predefined messages and answers for recurring user requests.
+  - You are now able to block users for 48 hours.
 
 
 ### Fixed
