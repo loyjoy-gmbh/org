@@ -236,7 +236,7 @@ LoyJoy('boot', {
 
 ## Restart
 
-Tells the chat to restart the process after after a page reload (or after a new `LoyJoy('boot')`). This keeps the chat history, however restarts the experience from the beginning.
+Tells the chat to restart the process after after (1) a page reload, (2) calling `LoyJoy('boot')` or (3) jumping to another experience. This removes the chat history and restarts the experience from the beginning. In contrast to `reset` the session remains intact, i.e. the customer remains signed in and variables are not removed.
 
 ```
 <script>
