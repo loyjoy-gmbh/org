@@ -16,6 +16,10 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - The module optionally  asks for a country which you can select from predefined options. This feature has to be activated and countrys have to be added.
 - Add training data for NLU from customer messages
   - Messages from chats can now be assigned to intent training data to extend the training data.
+- Added process module `Opt-ins`, which shows all opt-ins of a customer with the option to opt out.
+- Several process modules no longer require a previous sign-in: `Notification`, `Process Instance List`.
+- Process modules `Participation` and `Loyalty` now check terms autonomously without requiring a `Sign-in` process module in the same experience.
+- JavaScript API parameter `restart` now restarts on (1) a page reload, (2) calling `LoyJoy('boot')` or (3) jumping to another experience.
 
 
 ## release-2021-08-12
