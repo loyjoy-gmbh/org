@@ -12,7 +12,7 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - Recommendations for the best image size were added to every image upload.
   - Warning when uploading an image and animated GIF which exceeds the recommended file size.
   - Displays warning when the currently uploaded image or animated GIF exceeds the recommended file size.
-- `Postal address`module
+- `Postal address` module
   - The module optionally  asks for a country which you can select from predefined options. This feature has to be activated and countrys have to be added.
 - Add training data for NLU from customer messages
   - Messages from chats can now be assigned to intent training data to extend the training data.
