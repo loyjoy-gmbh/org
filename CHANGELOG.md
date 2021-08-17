@@ -24,7 +24,7 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 
 - Added process module `Opt-ins`, which shows all opt-ins of a customer with the option to opt out. Before this was a hard-coded part of the settings area.
 - Added process module `Edit email`, which allows the customer to change the email address. Before this was a hard-coded part of the settings area.
-- Several process modules no longer require a previous sign-in: `Notification`, `Process Instance List`.
+- Several process modules no longer require a previous sign-in: `Notification`, `Process Instance List`, `Reminder`.
 - Process modules `Participation` and `Loyalty` now check terms autonomously without requiring a `Sign-in` process module in the same experience.
 - JavaScript API parameter `restart` now restarts on (1) a page reload, (2) calling `LoyJoy('boot')` or (3) jumping to another experience.
 
