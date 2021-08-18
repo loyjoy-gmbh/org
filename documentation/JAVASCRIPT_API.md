@@ -7,7 +7,7 @@ The LoyJoy JavaScript API is a powerful programming interface to control the Loy
 
 The script integration registers the global function LoyJoy in the window. It does not change the DOM. BOT_ID must be replaced with your own ID from the LoyJoy manager.
 
-```
+```html
 <script src="https://cloud.loyjoy.com/widget/BOT_ID"></script>
 ```
 
@@ -16,7 +16,7 @@ The script integration registers the global function LoyJoy in the window. It do
 
 Injects LoyJoy elements into the DOM and shows the chat bubble as configured in the LoyJoy manager.
 
-```
+```html
 <script>
 LoyJoy('boot', {
   bot: BOT_ID,
@@ -30,7 +30,7 @@ LoyJoy('boot', {
 
 The chat emits events for chat events (open, close, sign-up, etc.) that can be registered for with event listeners. The registration takes place either as a catch-all ...
 
-```
+```html
 <script>
 LoyJoy('boot', {
   bot: BOT_ID,
@@ -42,7 +42,7 @@ LoyJoy('boot', {
 
 ... or for specific events:
 
-```
+```html
 <script>
 LoyJoy('boot', {
   bot: BOT_ID,
@@ -112,7 +112,7 @@ A full event object looks like this:
 
 Removes the LoyJoy DOM elements from the DOM.
 
-```
+```html
 <script>LoyJoy('remove')</script>
 ```
 
@@ -121,7 +121,7 @@ Removes the LoyJoy DOM elements from the DOM.
 
 Opens LoyJoy chat. Antagonist to close.
 
-```
+```html
 <script>LoyJoy('open')</script>
 ```
 
@@ -130,7 +130,7 @@ Opens LoyJoy chat. Antagonist to close.
 
 Closes the LoyJoy chat. Antagonist to open.
 
-```
+```html
 <script>LoyJoy('close')</script>
 ```
 
@@ -139,7 +139,7 @@ Closes the LoyJoy chat. Antagonist to open.
 
 Hides the LoyJoy element in DOM (display: none), but does not remove it. Antagonist to show.
 
-```
+```html
 <script>LoyJoy('hide')</script>
 ```
 
@@ -148,7 +148,7 @@ Hides the LoyJoy element in DOM (display: none), but does not remove it. Antagon
 
 Makes the LoyJoy element visible in DOM. Antagonist to hide.
 
-```
+```html
 <script>LoyJoy('show')</script>
 ```
 
@@ -157,7 +157,7 @@ Makes the LoyJoy element visible in DOM. Antagonist to hide.
 
 A callback function, which signals cookie consent, e.g. from a cookie consent bar on the hosting website.
 
-```
+```html
 <script>
 LoyJoy('boot', {
   bot: BOT_ID,
@@ -175,7 +175,7 @@ LoyJoy('boot', {
 
 A string in in the format `<language-iso-6391>_<region-iso-31662>` (two-letter-codes). Overwrites the user’s settings regarding language and region. This language and region will be saved as the customer’s language and region.
 
-```
+```html
 <script>
 LoyJoy('boot', {
   bot: BOT_ID,
@@ -191,7 +191,7 @@ LoyJoy('boot', {
 An authentication JSON Web token (JWT), that provides the chat with an authentication context. The JWT issuer is "customer iss" (cf. https://sites.loyjoy.com/test/jwt.html). The JWT claim "email" is mandatory, the JWT claims "firstname" and "lastname" are optional. The JWT secret can be set in "Bot" > "Cookies" in the field `Secret JWT key`.
 
 
-```
+```html
 <script>
 LoyJoy('boot', {
   bot: BOT_ID,
@@ -206,7 +206,7 @@ LoyJoy('boot', {
 
 Passes freely selected parameters to the experience that can be evaluated in the BPMN process using BPMN conditions and other expressions. For example, the parameters can be accessed with the `GetParam` function in LoyJoy.
 
-```
+```html
 <script>
 LoyJoy('boot', {
   bot: BOT_ID,
@@ -222,7 +222,7 @@ LoyJoy('boot', {
 
 Similar to freely selected parameters you can supply a callback function that will be evaluated dynamically. The callback also results in a parameter that can be used in the BPMN process via `GetParam`.
 
-```
+```html
 <script>
 LoyJoy('boot', {
   bot: BOT_ID,
@@ -238,7 +238,7 @@ LoyJoy('boot', {
 
 Tells the chat to restart the process after after (1) a page reload, (2) calling `LoyJoy('boot')` or (3) jumping to another experience. This removes the chat history and restarts the experience from the beginning. In contrast to `reset` the session remains intact, i.e. the customer remains signed in and variables are not removed.
 
-```
+```html
 <script>
 LoyJoy('boot', {
   bot: BOT_ID,
@@ -252,7 +252,7 @@ LoyJoy('boot', {
 
 Tells the chat to reset the process after after a page reload (or after a new `LoyJoy('boot')`). This removes the chat history and restarts the experience from the beginning.
 
-```
+```html
 <script>
 LoyJoy('boot', {
   bot: BOT_ID,
@@ -266,7 +266,7 @@ LoyJoy('boot', {
 
 Tells the chat to open the messenger window independent of other configuration settings.
 
-```
+```html
 <script>
 LoyJoy('boot', {
   bot: BOT_ID,
@@ -280,7 +280,7 @@ LoyJoy('boot', {
 
 By default LoyJoy will try to load the service worker from `/service-worker.js` to enable e.g. push notifications. To prevent LoyJoy from trying to load the service worker you can use the parameter `serviceWorkerDisable`.
 
-```
+```html
 <script>
 LoyJoy('boot', {
   bot: BOT_ID,
