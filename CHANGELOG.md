@@ -20,9 +20,14 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - Messages from chats can now be assigned to intent training data to extend the training data.
 - Added option to disable trying to load service worker in widget
 
+### Changed
+
+- Removed support for Internet Explorer 11. In case of Internet Explorer 11 the chat does not render anymore.
+
 ### Fixed
 
 - Fixes in icon view for questionnaire single choice and multiple choice questions
+
 
 ## release-2021-08-17
 
