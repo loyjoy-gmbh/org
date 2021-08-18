@@ -19,7 +19,7 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 - Add training data for NLU from customer messages
   - Messages from chats can now be assigned to intent training data to extend the training data.
 - Added option to disable trying to load service worker in widget
-- Shopify module
+- `Shopify` module
   - Display and filter products of your shopify in the chat.
   - Show the current shopping cart in the chat and let your users modify the order.
 
