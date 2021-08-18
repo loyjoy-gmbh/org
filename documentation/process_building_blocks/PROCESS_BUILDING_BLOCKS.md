@@ -147,6 +147,9 @@ Let your customers share an image from the chat to their friends. This displays 
 ## Share link
 Invite your customers to share the experience on social media or email with their friends.
 
+## Shopify
+Display products from your Shopify store in the chat. Customers can add products to the shopping cart and view the content of their cart. 
+
 ## Sign in
 Customers enter their email address to sign in. Stored in CRM. Customers can log in again later and access their profile. If they login on a different device or on another channel (WhatsApp, Facebook, WeChat, Alexa, Google) they receive a PIN to verify their identity.
 
