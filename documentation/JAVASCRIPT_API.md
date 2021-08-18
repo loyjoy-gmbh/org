@@ -275,3 +275,17 @@ LoyJoy('boot', {
 })
 </script>
 ```
+
+## Disable service worker
+
+By default LoyJoy will try to load the service worker from `/service-worker.js` to enable e.g. push notifications. To prevent LoyJoy from trying to load the service worker you can use the parameter `serviceWorkerDisable`.
+
+```
+<script>
+LoyJoy('boot', {
+  bot: BOT_ID,
+  serviceWorkerDisable: true,
+  process: OPTIONAL_PROCESS_ID
+})
+</script>
+```
