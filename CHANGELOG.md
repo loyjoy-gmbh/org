@@ -6,6 +6,8 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 
 ## Unreleased (coming soon)
 
+### Added
+
 - `Questionnaire` module
   - Added the emoji slider from `NPS` module as a new question type.
 - Image size recommendations
@@ -18,6 +20,9 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - Messages from chats can now be assigned to intent training data to extend the training data.
 - Added option to disable trying to load service worker in widget
 
+### Fixed
+
+- Fixes in icon view for questionnaire single choice and multiple choice questions
 
 ## release-2021-08-17
 
