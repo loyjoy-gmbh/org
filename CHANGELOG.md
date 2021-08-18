@@ -16,6 +16,7 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - The module optionally  asks for a country which you can select from predefined options. This feature has to be activated and countrys have to be added.
 - Add training data for NLU from customer messages
   - Messages from chats can now be assigned to intent training data to extend the training data.
+- Added option to disable trying to load service worker in widget
 
 
 ## release-2021-08-17
