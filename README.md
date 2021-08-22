@@ -10,7 +10,7 @@ Here you find the public documentation for [LoyJoy Conversational Marketing Clou
 | [ChangeLog](CHANGELOG.md)                                                                  | Changes and version history.                                 |
 | [Process Modules](documentation/process_building_blocks/PROCESS_BUILDING_BLOCKS.md)        | Discover the LoyJoy process modules.                         |
 | [Home View](documentation/introduction/HOMEVIEW.md)                                        | How to set up your a Home View.                              |
-| [JavaScript API](documentation/JAVASCRIPT_API.md)                                          | JavaScript API documentation.                                |
+| [JavaScript API for Website Integration](documentation/JAVASCRIPT_API.md)                  | Easy Website Integration with our powerful JavaScript AP     |
 | [Google Analytics Tracking Integration](documentation/GOOGLE_TAG_MANAGER.md)               | Tracking integration with Google Tag Manager.                |
 | [Facebook Messenger Integration](documentation/FACEBOOK_INTEGRATION.md)                    | Facebook Messenger integration.                              |
 | [Facebook Pixel Integration](documentation/FACEBOOK_PIXEL.md)                              | Send tracking events to Facebook.                            |
