@@ -21,22 +21,28 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 
 ### Added
 
-- `Questionnaire` module
-  - Added the emoji slider from `NPS` module as a new question type.
-- `Postal address` module
-  - The module optionally asks for a country which you can select from predefined options. This feature has to be activated by adding countries in the module.
+- Added process module `Jump return`, which jumps into a callee process and after ending that callee process automatically jumps back to the caller process. This is useful for reusing a process in other processes like a function call.
+- Process module `Questionnaire` now offers the emoji slider as known from the `NPS` process module.
+- Process module `Postal address` now optionally asks for a country which can be selected from a list of predefined options. This feature can be activated by adding countries in the process module.
 - By default LoyJoy loads the service worker from /service-worker.js to enable e.g. push notifications. To prevent LoyJoy from trying to load the service worker you now can use the parameter `serviceWorkerDisable: true` to prevent an HTTP 404 error.
-- `Shopify` module
+- Added process module `Shopify`
   - Display and filter products of your shopify in the chat.
   - Show the current shopping cart in the chat and let your users modify the order.
+- Process module `Live` now distinguishes between `Waiting for agent` and `Live chat started`.
+- Added several modes to process module `Beiersdorf`.
 
 ### Changed
 
 - Removed support for Internet Explorer 11. In case of Internet Explorer 11 the chat does not render anymore.
+- Carousels now do not render a scroll bar anymore. This is possible due to removal of support for Internet Explorer 11.
+- Several process modules no longer require a previous sign-in: `Code`, `Coupon code`, `Loyalty`, `Loyalty referral`, `Loyalty sharing`, `Participation`, `Win`. Instead these simply require an `auth_email` variable to operate, which is set by other process modules such as `Sign-In`, `ReachFive` or `ProCampaign`.
+- Stories style for `compact` and `large` has been simplified to `large` only. Thus, stories now always have a cover and optionally an avatar.
+- Removed process module `In-chat push`.
 
 ### Fixed
 
-- Fixes in icon view for questionnaire single choice and multiple choice questions
+- Fixes in icon view for questionnaire single choice and multiple choice questions.
+- Fixed color of sparkle animation.
 
 
 ## release-2021-08-17
