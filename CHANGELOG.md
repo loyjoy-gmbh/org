@@ -4,21 +4,28 @@
 All notable updates and changes to the LoyJoy Cloud are documented here.
 
 
+
 ## Unreleased (coming soon)
+
+### Added
+
+- Image size recommendations
+  - Recommendations for the best image size were added to every image upload.
+  - Warning when uploading an image and animated GIF which exceeds the recommended file size.
+  - Displays warning when the currently uploaded image or animated GIF exceeds the recommended file size.
+- Add training data for NLU from customer messages
+  - Messages from chats can now be assigned to intent training data to extend the training data.
+
+
+## release-2021-08-26
 
 ### Added
 
 - `Questionnaire` module
   - Added the emoji slider from `NPS` module as a new question type.
-- Image size recommendations
-  - Recommendations for the best image size were added to every image upload.
-  - Warning when uploading an image and animated GIF which exceeds the recommended file size.
-  - Displays warning when the currently uploaded image or animated GIF exceeds the recommended file size.
 - `Postal address` module
-  - The module optionally  asks for a country which you can select from predefined options. This feature has to be activated and countrys have to be added.
-- Add training data for NLU from customer messages
-  - Messages from chats can now be assigned to intent training data to extend the training data.
-- Added option to disable trying to load service worker in widget
+  - The module optionally asks for a country which you can select from predefined options. This feature has to be activated by adding countries in the module.
+- By default LoyJoy loads the service worker from /service-worker.js to enable e.g. push notifications. To prevent LoyJoy from trying to load the service worker you now can use the parameter `serviceWorkerDisable: true` to prevent an HTTP 404 error.
 - `Shopify` module
   - Display and filter products of your shopify in the chat.
   - Show the current shopping cart in the chat and let your users modify the order.
