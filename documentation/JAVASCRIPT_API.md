@@ -28,59 +28,13 @@ LoyJoy('boot', {
 
 ## Events
 
-The chat emits events for chat events (open, close, sign-up, etc.) that can be registered for with event listeners. The registration takes place either as a catch-all ...
+The chat emits events for chat events (open, close, sign-up, etc.) that can be registered for with event listeners. 
 
 ```html
 <script>
 LoyJoy('boot', {
   bot: BOT_ID,
   eventListeners: [function (evt, obj) {}],
-  process: OPTIONAL_PROCESS_ID
-})
-</script>
-```
-
-... or for specific events:
-
-```html
-<script>
-LoyJoy('boot', {
-  bot: BOT_ID,
-  eventListeners: {
-    close: [
-      function (obj) {}
-    ],
-    customer_created: [
-      function (obj) {}
-    ],
-    hide: [
-      function (obj) {}
-    ],
-    interaction: [
-      function (obj) {}
-    ],
-    load: [
-      function (obj) {}
-    ],
-    open: [
-      function (obj) {}
-    ],
-    show: [
-      function (obj) {}
-    ],
-    sign_in: [
-      function (obj) {}
-    ],
-    sign_out: [
-      function (obj) {}
-    ],
-    sign_up: [
-      function (obj) {}
-    ],
-    start: [
-      function (obj) {}
-    ]
-  },
   process: OPTIONAL_PROCESS_ID
 })
 </script>
@@ -107,6 +61,7 @@ A full event object looks like this:
   "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtYXAgaXNzIiwiZW1haWwiOiJ0ZXN0QGxveWpveS5jb20ifQ.CjH4UxbVkCLfZ19Tz7_9_gjRCaFf6fkYbuUtnDPFmOw"
 }
 ```
+
 
 ## Remove
 
