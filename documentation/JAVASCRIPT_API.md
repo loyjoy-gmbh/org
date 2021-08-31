@@ -1,4 +1,4 @@
-# LoyJoy JavaScript API
+# Manage LoyJoy Website Integration with JavaScript API
 
 The LoyJoy JavaScript API is a powerful programming interface to control the LoyJoy chat on your website and to personalize the content of your website. The API allows you to show and hide the LoyJoy chat bubble, open and close the chat window, and much more. The events triggered by LoyJoy allow you to react to the chat events, for example using the name entered by the user to address him personally. You can also use LoyJoy as an authentication provider by having your users sign into the chat and then relying on the user data provided by LoyJoy.
 
