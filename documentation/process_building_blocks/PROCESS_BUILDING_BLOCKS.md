@@ -24,6 +24,9 @@ Use this if customers should be able to go through the same experience several t
 ## Decision jump
 Let customers decide to jump into a process step or into another chatbot experience. This is powerful for building customer journeys.
 
+## Email
+Ask your customers for their email address
+
 ## Event
 Technical event, used in connection with our Javascript API, use it to personalize the underlying website experience. See the API description here https://www.loyjoy.com/de/api/tracking-integration.
 
