@@ -15,7 +15,8 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - Displays warning when the currently uploaded image or animated GIF exceeds the recommended file size.
 - Add training data for NLU from customer messages
   - Messages from chats can now be assigned to intent training data to extend the training data.
-
+- New Process module: Email
+  - Ask your customers for their email address.
 
 ## release-2021-09-07
 
