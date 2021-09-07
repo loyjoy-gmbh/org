@@ -22,6 +22,10 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
 
 ### Added
 
+- New modes for the Salesforce Marketing Cloud module:
+  - Assure contact
+  - Send email
+
 ### Changed
 
 - Several process modules no longer require a previous sign-in: `Web-push opt-in`, `Notification`, `Reminder`. Instead these now solely rely on push subscriptions, which are anonymous by default.
