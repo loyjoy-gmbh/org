@@ -17,6 +17,15 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - Messages from chats can now be assigned to intent training data to extend the training data.
 
 
+## release-2021-09-07
+
+### Added
+
+### Changed
+
+- Several process modules no longer require a previous sign-in: `Web-push opt-in`, `Notification`, `Reminder`. Instead these now solely rely on push subscriptions, which are anonymous by default.
+
+
 ## release-2021-08-26
 
 ### Added
