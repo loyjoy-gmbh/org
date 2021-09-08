@@ -17,6 +17,10 @@ All notable updates and changes to the LoyJoy Cloud are documented here.
   - Messages from chats can now be assigned to intent training data to extend the training data.
 - New Process module: Email
   - Ask your customers for their email address.
+- Live chat:
+  - It is now possible to filter solely for live chats
+  - You can now end the live chat with one button click
+  - Whenever you route your customer to other processes or building blocks the destination is now shown in the chat
 
 ## release-2021-09-07
 
